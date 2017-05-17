@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Console.cs" />
+    <Compile Include="Logging\ErrorMessage.cs" />
+    <Compile Include="Logging\Interfaces\IObservable.cs" />
+    <Compile Include="Logging\Interfaces\IObservator.cs" />
+    <Compile Include="Logging\Interfaces\IWritable.cs" />
+    <Compile Include="Logging\Message.cs" />
+    <Compile Include="Logging\Messaging.cs" />
+    <Compile Include="Logging\PassedMessage.cs" />
+    <Compile Include="Logging\WarningMessage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
